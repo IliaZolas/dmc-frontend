@@ -9,7 +9,7 @@ const BlogpostSection =  () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get('https://www.dmc.iliazolas.com/wp-json/wp/v2/posts');
+                const response = await axios.get('https://dmc.iliazolas.com/wp-json/wp/v2/posts');
                 setBlogpost(response.data);
             } catch (error) {
                 console.error(error);
