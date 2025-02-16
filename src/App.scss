@@ -1,0 +1,102 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(0,33,33);
+  background: linear-gradient(90deg, rgba(0,33,33,1) 0%, rgba(0,45,45,1) 100%); 
+}
+
+p {
+  color: #cac8c8;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+h1 {
+  color: white;
+  font-size: 44px;
+  line-height: 0.8;
+}
+
+h2 {
+  color: #cac8c8;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+h3 {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h4 {
+  color: #009c9c;
+  font-size: 44px;
+  line-height: 0.8;
+}
+
+h5 {
+  color: #009c9c;
+  font-size: 24px;
+  line-height: 0em;
+  margin: 0;
+}
+
+h6 {
+  color: #cac8c8;
+  font-size: 32px;
+  font-weight: lighter;
+  line-height: 0;
+}
+
+h7 {
+  color: white;
+  font-size: 36px;
+  line-height: 0.8;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.container-nav {
+  width: 800px;
+  margin: auto;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #009c9c;
+  padding: 10px 40px;
+  text-decoration: none;
+  font-size: 24px;
+  border-radius: 5px;
+}
+
+.btn-primary-blog {
+  position: absolute;
+  color: white;
+  background-color: #009c9c;
+  padding: 5px 25px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 5px;
+  bottom: 30px;
+  right: 30px;
+}
+
+.bg-img {
+  position: absolute;
+  justify-content: space-around;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}

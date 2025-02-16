@@ -1,0 +1,39 @@
+
+
+.hero-container {
+    height: 100vh;
+    width: 1000px;
+    // overflow: hidden;
+    margin: auto;
+    position: relative;
+}
+
+.hero-content {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: 300px;
+}
+
+.hero-text {
+    position: absolute;
+    top: 100px;
+    left: -120px;
+    width: 500px;
+}
+
+.hero-connect-img {
+    position: absolute;
+    top: 350px;
+    left: 180px;
+    opacity: 0.05;
+}
+
+.hero-product-img {
+    position: absolute;
+    left: 450px;
+}
+
+.hero-btn-position {
+    padding-top: 50px;
+}
